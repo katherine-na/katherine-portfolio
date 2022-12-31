@@ -1,17 +1,25 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import Navbar from "./components/Navbar";
+import Biography from "./components/Biography";
+import SkillsSection from "./components/SkillsSection"
+import Projects from "./components/Projects";
+import ExperienceItem from "./components/ExperienceItem";
+import EducationItem from "./components/EducationItem";
+import CertificationItem from "./components/CertificationItem";
+import Footer from "./components/Footer";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <>
+    <Navbar />
+    <Biography/>
+    <SkillsSection/>
+    <Projects/>
+    <ExperienceItem/>
+    <EducationItem/>
+    <CertificationItem/>
+    <Footer/>
+  </>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
