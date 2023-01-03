@@ -1,16 +1,39 @@
 {
   "files": {
-    "main.css": "/katherine-portfolio/static/css/main.073c9b0a.css",
-    "main.js": "/katherine-portfolio/static/js/main.2ca872d8.js",
-    "static/js/787.9d73c604.chunk.js": "/katherine-portfolio/static/js/787.9d73c604.chunk.js",
-    "static/media/logo.svg": "/katherine-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/katherine-portfolio/static/css/main.9fe7d62e.css",
+    "main.js": "/katherine-portfolio/static/js/main.52341dfa.js",
+    "static/media/cert-rd.png": "/katherine-portfolio/static/media/cert-rd.bb7d312361fb7b70f07c.png",
+    "static/media/cert-js.png": "/katherine-portfolio/static/media/cert-js.15b2212fc0eb8a49276f.png",
+    "static/media/cert-css.png": "/katherine-portfolio/static/media/cert-css.2089888a184e17c29179.png",
+    "static/media/cert-html.png": "/katherine-portfolio/static/media/cert-html.c3be49591f27cba40581.png",
+    "static/media/clock.png": "/katherine-portfolio/static/media/clock.12fe4376d8aecef415e6.png",
+    "static/media/photoKathy.png": "/katherine-portfolio/static/media/photoKathy.833d5da28fcd77e1db24.png",
+    "static/media/bookstore.png": "/katherine-portfolio/static/media/bookstore.cc0d7992d072e5a5fa2a.png",
+    "static/media/react.png": "/katherine-portfolio/static/media/react.81ed438b18e24116794d.png",
+    "static/media/typing.png": "/katherine-portfolio/static/media/typing.cf24ea35dedb9d490026.png",
+    "static/media/responsive.jpg": "/katherine-portfolio/static/media/responsive.2711e928e0b52e504095.jpg",
+    "static/media/colbach.jpg": "/katherine-portfolio/static/media/colbach.0c95ce8797d405a5e2d8.jpg",
+    "static/media/javascript.png": "/katherine-portfolio/static/media/javascript.fd668b084a25f663bf42.png",
+    "static/media/invision-logo.png": "/katherine-portfolio/static/media/invision-logo.13b46f60675cccb58fb7.png",
+    "static/media/linkeding.jpeg": "/katherine-portfolio/static/media/linkeding.b227bf7fcf1e157b7cca.jpeg",
+    "static/media/sass.png": "/katherine-portfolio/static/media/sass.550c6db4d32a75a2ae45.png",
+    "static/media/linux.png": "/katherine-portfolio/static/media/linux.24a26a2ec29c2e987464.png",
+    "static/media/github.png": "/katherine-portfolio/static/media/github.75f4757c0cda18e97d5e.png",
+    "static/media/ravik.png": "/katherine-portfolio/static/media/ravik.bebdb8a82b386f011bc2.png",
+    "static/media/sunshine.png": "/katherine-portfolio/static/media/sunshine.623e99b573db125a95d6.png",
+    "static/media/wordpress.webp": "/katherine-portfolio/static/media/wordpress.00360da76771d96577b8.webp",
+    "static/media/vscode.png": "/katherine-portfolio/static/media/vscode.d793c746fbc937f66e3d.png",
+    "static/media/css.png": "/katherine-portfolio/static/media/css.6ff70445747d9d37c578.png",
+    "static/media/coursera.png": "/katherine-portfolio/static/media/coursera.c66dd69b30a763a35157.png",
+    "static/media/html.png": "/katherine-portfolio/static/media/html.ff3cf75e3b7cbb4ea77c.png",
+    "static/media/git.png": "/katherine-portfolio/static/media/git.db538452a3fb6ffbc088.png",
+    "static/media/knowledgize.png": "/katherine-portfolio/static/media/knowledgize.981b3f1edc2f05d389f9.png",
     "index.html": "/katherine-portfolio/index.html",
-    "main.073c9b0a.css.map": "/katherine-portfolio/static/css/main.073c9b0a.css.map",
-    "main.2ca872d8.js.map": "/katherine-portfolio/static/js/main.2ca872d8.js.map",
-    "787.9d73c604.chunk.js.map": "/katherine-portfolio/static/js/787.9d73c604.chunk.js.map"
+    "main.9fe7d62e.css.map": "/katherine-portfolio/static/css/main.9fe7d62e.css.map",
+    "main.52341dfa.js.map": "/katherine-portfolio/static/js/main.52341dfa.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.2ca872d8.js"
+    "static/css/main.9fe7d62e.css",
+    "static/js/main.52341dfa.js"
   ]
 }
