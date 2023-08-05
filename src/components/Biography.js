@@ -1,8 +1,8 @@
 import React from "react";
+import CV from "../assets/biography/Web-UI-Katherine-Negrete-08-2022.pdf"
 
 const Biography = () => {
-  const dowloadCv = "./files/Web-UI-Katherine-Negrete-Aguilar-08-2022.pdf";
-  const videoTitle = require.context('../assets/biography')
+  const dowloadCv = "../assets/biography/Web-UI-Katherine-Negrete-08-2022.pdf";
 
   return (
     <section id="biography">
