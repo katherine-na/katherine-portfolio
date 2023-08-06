@@ -1,15 +1,16 @@
 import React from "react";
 
-const Education = (props) => {
+const Education = ({images}) => {
+
+const schoolImages = [require('../assets/school/colbach.png'), require('../assets/school/coursera.png'), require('../assets/school/udemy.png')]
+
   return(
-    <section id="my-education">
-        <div className="education">
-            <img className="school-img" src={props.school}/>
-            <div className="info">
-              <p className="school-info">{props.schoolDate}</p>
-              <p className="school-info">{props.schoolInfo}</p>
-            </div>
-        </div>
+    <section id="education">
+      <div className="education-images">
+        {schoolImages.map((image, index) => (
+            <img className="school-img" key={index} src={image} alt={`Image ${index}`}/>
+        ))}
+      </div>
     </section>
   )
 };

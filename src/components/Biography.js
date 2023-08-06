@@ -1,8 +1,7 @@
 import React from "react";
-import CV from "../assets/biography/Web-UI-Katherine-Negrete-08-2022.pdf"
 
 const Biography = () => {
-  const dowloadCv = "../assets/biography/Web-UI-Katherine-Negrete-08-2022.pdf";
+  const dowloadCv = "";
 
   return (
     <section id="biography">
@@ -19,6 +18,7 @@ const Biography = () => {
           Dowloand CV
         </a>
       </div>
+      <div></div>
     </section>
   );
 };
