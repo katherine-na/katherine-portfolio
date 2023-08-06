@@ -1,11 +1,24 @@
 import React from "react";
 
+const skillsImage = [
+  require('../assets/skills/html.svg.png'), 
+  require('../assets/skills/css.svg.png'), 
+  require('../assets/skills/js.png'), 
+  require('../assets/skills/react.png'), 
+  require('../assets/skills/node.svg.png'), 
+  require('../assets/skills/graphql.svg.png'), 
+  require('../assets/skills/B.svg.png'), 
+  require('../assets/skills/sass.svg.png'), 
+  require('../assets/skills/vtex.png'),
+  require('../assets/skills/vscode.svg.png'),
+]
 
-const Skills = (props) => {
+const Skills = (images) => {
   return (
         <div class="item">
-          <img src={props.image} className="skill-image"/>
-          <p>{props.name}</p>
+          {skillsImage.map((image, index) => (
+            <img className="skill-image" key={index} src={image} alt={`Image ${index}`}/>
+          ))}
         </div>
   );
 };

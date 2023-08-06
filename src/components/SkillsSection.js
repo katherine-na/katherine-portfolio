@@ -1,8 +1,17 @@
 import React from 'react';
 import Skills from './Skills';
 
-const skillsImage = require.context('../assets/skills', true);
-
+const skillsImage = [
+  '../assets/skills/html.png', 
+  '../assets/skills/css.png', 
+  '../assets/skills/javascript.png', 
+  '../assets/skills/linux.png', 
+  '../assets/skills/git.png', 
+  '../assets/skills/boostrap.png', 
+  '../assets/skills/sass.png', 
+  '../assets/skills/react.png', 
+  '../assets/skills/vscode.png'
+]
 
 const SkillsSection = () => {
     return (
@@ -15,19 +24,7 @@ const SkillsSection = () => {
           </p>
         </div>
         <div className="skills-items">
-          <Skills image={ skillsImage(`./html.png`) } name="HTML5"/>
-          <Skills image={ skillsImage(`./css.png`) } name="CSS3"/>
-          <Skills image={ skillsImage(`./javascript.png`) } name="JavaScript"/>
-          <Skills image={ skillsImage(`./linux.png`) } name="Linux"/>
-          <Skills image={ skillsImage(`./git.png`) } name="Git"/>
-          <Skills image={ skillsImage(`./boostrap.png`) } name="Bootstrap"/>
-          <Skills image={ skillsImage(`./react.png`) } name="React"/>
-          <Skills image={ skillsImage(`./sass.png`) } name="Sass"/>
-          {/* <Skills image={ skillsImage(`./figma.png`) } name="Figma"/> */}
-          {/* <Skills image={ skillsImage(`./invision-logo.png`) } name="Invision"/> */}
-          <Skills image={ skillsImage(`./vscode.png`) } name="VSCODE"/>
-          <Skills image={ skillsImage(`./wordpress.webp`) } name="WordPress"/>
-          {/* <Skills image={ skillsImage(`./responsive.jpg`) } name="Responsive Design"/> */}
+          <Skills images={skillsImage}/>
         </div>
         </section>
     )
