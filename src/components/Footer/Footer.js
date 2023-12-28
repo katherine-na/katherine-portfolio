@@ -1,4 +1,5 @@
 import React from "react";
+import './Footer.css'
 
 const socialMediaImages = require.context('../../assets/socialMedia')
 

@@ -6,7 +6,6 @@ import SkillsSection from "./components/MySkills/SkillsSection"
 import Projects from "./components/Projects/Projects";
 import ExperienceItem from "./components/Experience/ExperienceItem";
 import EducationItem from "./components/Education/EducationItem";
-import CertificationItem from "./components/Certifications/CertificationItem";
 import Footer from "./components/Footer/Footer";
 import NavigationBar from "../src/components/NavigationBar/NavigationBar"
 
@@ -18,8 +17,7 @@ root.render(
     <SkillsSection/>
     <Projects/>
     <ExperienceItem/>
-    <EducationItem/>
-    {/* <CertificationItem/> */}
+    <EducationItem />
     <Footer/>
   </>
 );

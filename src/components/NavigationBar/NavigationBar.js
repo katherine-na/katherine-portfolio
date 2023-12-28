@@ -7,7 +7,7 @@ const NavigationBar = () => {
   return (
     <section id="NavigationBar">
       <li className="navbar">
-        <ul>Contact Me</ul>
+        <ul>Contact Me:</ul>
         <ul className="navbar-social">
           <a
             href="https://www.linkedin.com/in/katherine-negrete-07b65b240/"

@@ -1,7 +1,8 @@
 import React from "react";
+import './Biography.css'
+import MyCV from "../../assets/CV/Front-End-Dev_Katherine_Negrete.pdf"
 
 const Biography = () => {
-  const dowloadCv = "";
 
   return (
     <section id="biography">
@@ -14,7 +15,7 @@ const Biography = () => {
         <p>
           Hi there! I'm a UI Front End Developer, I enjoy building websites.
         </p>
-        <a href={dowloadCv} class="dowloand-cv" download>
+        <a href={MyCV} class="dowloand-cv" download="Front-End-Dev_Katherine_Negrete.pdf">
           Dowloand CV
         </a>
       </div>

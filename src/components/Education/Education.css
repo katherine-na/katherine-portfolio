@@ -26,14 +26,9 @@
     height: 206px;
     border-radius: 100px;
     margin: 20px;
-    opacity: 0.5;
     transition: opacity 0.3s ease-in-out;
     cursor: pointer;
 
-  }
-
-  .school-img:hover {
-    opacity: 1;
   }
   
   .education-title {
@@ -49,4 +44,27 @@
   
   .info {
     margin-inline: 20px;
+  }
+
+  .colbach-text {
+    display: flex;
+    justify-content: center;
+  }
+
+  .certification-image {
+    width: 220px;
+    margin: 10px;
+  }
+
+  .wrap-schools {
+    display: flex;
+    justify-content: center;
+  }
+
+  .cert-coursera-wrap {
+    display: flex;
+  }
+
+  .certification-colbach {
+    width: 600px;
   }
