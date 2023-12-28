@@ -1,0 +1,10 @@
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 20px 50px;
+}
+
+.navbar-social {
+    padding: 0;
+}

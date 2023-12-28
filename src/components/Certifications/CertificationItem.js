@@ -6,7 +6,6 @@ const certificationImage = [
   '../assets/certification/cert-css.png',
   '../assets/certification/cert-js.png',
   '../assets/certification/cert-rd.png',
-  '../assets/certification/cert-udemy.jpeg'
 ]
 
 const CertificationItem = () => {

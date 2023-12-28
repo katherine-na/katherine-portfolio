@@ -1,0 +1,30 @@
+.certification-wrap {
+    display: flex;
+    justify-content: center;
+    margin-block: 50px;
+  }
+  
+  .certification-item {
+    margin-inline: 20px;
+    transition: all .2s ease-in-out;
+  }
+  
+  .certification-image {
+    width: 220px;
+    margin: 10px;
+  }
+  
+  
+  .certification-text{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+  }
+  
+  .certification-text.active {
+    visibility: visible;
+  }
+  
+  .certification-text.inactive {
+    visibility: hidden;
+  }

@@ -1,7 +1,7 @@
 import React from "react";
 import Experience from "./Experience";
 
-const companyImage = require.context("../assets/experience", true);
+const companyImage = require.context("../../assets/experience", true);
 
 const ExperienceItem = () => {
   return (

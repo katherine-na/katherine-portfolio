@@ -1,6 +1,6 @@
 import React from "react";
 
-const socialMediaImages = require.context('../assets/socialMedia')
+const socialMediaImages = require.context('../../assets/socialMedia')
 
 const Footer = () => {
   return (
