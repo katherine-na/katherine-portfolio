@@ -1,5 +1,6 @@
 import React from 'react';
 import Skills from './Skills';
+import './Skills.css'
 
 const skillsImage = [
   '../assets/skills/html.png', 

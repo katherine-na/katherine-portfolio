@@ -1,5 +1,6 @@
 import React from "react";
 import Education from "./Education";
+import './Education.css'
 
 const schoolImages = ['colbach.png', 'coursera.png', 'udemy.png']
 

@@ -1,25 +1,25 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import Navbar from "./components/Navbar";
-import Biography from "./components/Biography";
-import SkillsSection from "./components/SkillsSection"
-import Projects from "./components/Projects";
-import ExperienceItem from "./components/ExperienceItem";
-import EducationItem from "./components/EducationItem";
-import CertificationItem from "./components/CertificationItem";
-import Footer from "./components/Footer";
+import Biography from "./components/Biography/Biography";
+import SkillsSection from "./components/MySkills/SkillsSection"
+import Projects from "./components/Projects/Projects";
+import ExperienceItem from "./components/Experience/ExperienceItem";
+import EducationItem from "./components/Education/EducationItem";
+import CertificationItem from "./components/Certifications/CertificationItem";
+import Footer from "./components/Footer/Footer";
+import NavigationBar from "../src/components/NavigationBar/NavigationBar"
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <>
-    <Navbar />
+    <NavigationBar />
     <Biography/>
     <SkillsSection/>
     <Projects/>
     <ExperienceItem/>
     <EducationItem/>
-    <CertificationItem/>
+    {/* <CertificationItem/> */}
     <Footer/>
   </>
 );

@@ -1,7 +1,8 @@
 import React from "react";
 import ProjectItem from "./ProjectItem";
+import './Projects.css'
 
-const projectImages = require.context("../assets/projects");
+const projectImages = require.context("../../assets/projects");
 
 const Projects = () => {
   return (
