@@ -1,0 +1,70 @@
+#education {
+    display: flex;
+    align-items: center;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1),
+    0 6px 20px 0 rgba(0, 0, 0, 0.1);   */
+  }
+  
+  .education-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-block: 70px;
+  
+  }
+  
+  .education-container {
+    display: flex;
+    margin-top: 30px;
+  }
+  
+  .education-images {
+    display: flex;
+  }
+  .school-img {
+    width: 200px;
+    height: 206px;
+    border-radius: 100px;
+    margin: 20px;
+    transition: opacity 0.3s ease-in-out;
+    cursor: pointer;
+
+  }
+  
+  .education-title {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #0d1d56;
+    border-color: #755d8d;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    margin-inline: 50px;
+    width: 230px;
+  }
+  
+  .info {
+    margin-inline: 20px;
+  }
+
+  .colbach-text {
+    display: flex;
+    justify-content: center;
+  }
+
+  .certification-image {
+    width: 220px;
+    margin: 10px;
+  }
+
+  .wrap-schools {
+    display: flex;
+    justify-content: center;
+  }
+
+  .cert-coursera-wrap {
+    display: flex;
+  }
+
+  .certification-colbach {
+    width: 600px;
+  }
