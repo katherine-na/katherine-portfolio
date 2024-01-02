@@ -71,3 +71,26 @@
     color: black;
   }
   
+ /* Media Query para tablet */
+ @media only screen and (min-width: 600px) and (max-width: 1024px) {
+
+ }
+
+ /* Media Query para teléfono */
+ @media only screen and (max-width: 599px) {
+  #my-projects {
+    margin-block: 15px;
+  }
+
+  .project-items {
+    flex-direction: column;
+  }
+
+  .experience-item {
+    flex-direction: column;
+  }
+
+  .p-item {
+    margin-block: 20px;
+  }
+ }
