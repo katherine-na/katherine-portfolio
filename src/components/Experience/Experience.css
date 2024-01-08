@@ -46,3 +46,20 @@
     margin-block: 10px;
   
   }
+
+/* Media Query para teléfono */
+@media only screen and (max-width: 599px) {
+  #my-experience {
+    margin: 45px 50px;
+  }
+
+  .experience-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .experience-item {
+    flex-direction: column;
+  }
+ }

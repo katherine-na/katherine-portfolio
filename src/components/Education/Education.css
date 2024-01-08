@@ -68,3 +68,15 @@
   .certification-colbach {
     width: 600px;
   }
+
+  /* Media Query para teléfono */
+ @media only screen and (max-width: 599px) {
+  .wrap-schools {
+    flex-direction: column;
+  }
+
+  .cert-coursera-wrap {
+    flex-direction: column;
+
+  }
+ }

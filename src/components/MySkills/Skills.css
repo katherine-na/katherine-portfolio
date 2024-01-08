@@ -45,3 +45,11 @@
   .item {
     margin-inline: 10px;
   }
+
+/* Media Query para teléfono */
+@media only screen and (max-width: 599px) {
+  .skill-image {
+    margin: 15px;
+
+  }
+ }
