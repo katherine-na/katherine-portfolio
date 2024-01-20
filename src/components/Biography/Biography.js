@@ -1,6 +1,7 @@
 import React from "react";
 import './Biography.css'
-import MyCV from "../../assets/CV/Front-End-Dev_Katherine_Negrete.pdf"
+import MyCV from "../../assets/CV/Front-End-Dev_Katherine_Negrete.pdf";
+import Myphoto from "../../assets/biography/kathy.jpeg"
 
 const Biography = () => {
 
@@ -19,7 +20,9 @@ const Biography = () => {
           Dowloand CV
         </a>
       </div>
-      <div></div>
+      <div>
+        <img src='' alt="" />
+      </div>
     </section>
   );
 };

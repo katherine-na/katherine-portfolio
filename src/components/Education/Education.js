@@ -10,6 +10,7 @@ import certudemy from "../../assets/certification/cert-udemy.jpeg";
 import certga from "../../assets/certification/GACERTF.jpg";
 import certgtm from "../../assets/certification/GTMCERT.jpg";
 import certcolbach from "../../assets/certification/certcolbach.png";
+import certciberse from "../../assets/certification/cert-ciberse.png"
 
 const Education = () => {
   const [cert, setCert] = useState(2);
@@ -26,24 +27,43 @@ const Education = () => {
 
   const coursera = (
     <div className="cert-coursera-wrap">
-      <img className="certification-image" src={certhtml} alt="" />
-      <img className="certification-image" src={certcss} alt="" />
-      <img className="certification-image" src={certjs} alt="" />
-      <img className="certification-image" src={certrd} alt="" />
+      <div>
+        <img className="certification-image" src={certhtml} alt="" />
+        <p className="cert-text">Introduction HTML5</p>
+      </div>
+      <div>
+        <img className="certification-image" src={certcss} alt="" />
+        <p className="cert-text">Introduction CSS3</p>
+      </div>
+      <div>
+        <img className="certification-image" src={certjs} alt="" />
+        <p className="cert-text">Interactivity Javascript</p>
+      </div>
+      <div>
+        <img className="certification-image" src={certrd} alt="" />
+        <p className="cert-text">Responsive Design</p>
+      </div>
     </div>
   );
 
   const udemy = (
-    <div>
+    <div className="cert-coursera-wrap">
       <div>
-        <p>
-          Activities and societies: Intensive course covering modern web
-          development practice on front-end.
-        </p>
+        <img className="certification-image" src={certudemy} alt="" />
+        <p className="cert-text">ReactJs</p>
       </div>
-      <img className="certification-image" src={certudemy} alt="" />
-      <img className="certification-image" src={certga} alt="" />
-      <img className="certification-image" src={certgtm} alt="" />
+      <div>
+        <img className="certification-image" src={certga} alt="" />
+        <p className="cert-text">Google Analytics</p>
+      </div>
+      <div>
+        <img className="certification-image" src={certgtm} alt="" />
+        <p className="cert-text">Google tag mannager</p>
+      </div>
+      <div>
+        <img className="certification-image" src={certciberse} alt="" />
+        <p className="cert-text">Ciberseguridad</p>
+      </div>
     </div>
   );
 

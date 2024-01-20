@@ -56,6 +56,12 @@
     margin: 10px;
   }
 
+  .cert-text {
+    color: rgb(69, 69, 69);
+    text-align: center;
+    font-size: 12px;
+  }
+
   .wrap-schools {
     display: flex;
     justify-content: center;
@@ -78,5 +84,13 @@
   .cert-coursera-wrap {
     flex-direction: column;
 
+  }
+
+  .certification-image {
+    display: none;
+  }
+
+  .certification-colbach {
+    display: none;
   }
  }
