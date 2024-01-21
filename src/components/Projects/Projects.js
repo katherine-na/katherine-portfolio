@@ -15,7 +15,7 @@ const Projects = () => {
           <ProjectItem
             image={projectImages(`./sunshine.png`)}
             name="Swimmwear Store"
-            skills="HTML5, CSS3, SASS"
+            skills="HTML5, SASS, Javascript"
             description="Swimwear online shop with products displayed using images"
             demo="https://katherine-na.github.io/swimsuit-shop-project/marked/index.html"
             repo="https://github.com/katherine-na/swimsuit-shop-project"
@@ -23,30 +23,32 @@ const Projects = () => {
         </div>
         <div className="p-item">
           <ProjectItem
-            image={projectImages(`./typing.png`)}
-            name="Typing"
-            skills="JavaScript"
-            description="A simple responsive autosuggest application. Find all occurrences"
+            image={projectImages(`./thingstodo.png`)}
+            name="Things to do"
+            skills="React, Tailwind"
+            description="An application to write down the things you have pending to do"
+            demo="https://knathingstodo.netlify.app/"
+            repo="https://github.com/katherine-na/daily"
           />
         </div>
         <div className="p-item">
           <ProjectItem
             image={projectImages(`./bookstore.png`)}
             name="Book Store"
-            skills="JavaScript"
+            skills="Bootstrap"
             description="Awesome book gallery with insightful reviews about it"
             demo="https://katherine-na.github.io/gallery-project/"
             repo="https://github.com/katherine-na/gallery-project"
           />
         </div>
-        <div className="p-item">
+        {/* <div className="p-item">
           <ProjectItem
             image={projectImages(`./clock.png`)}
             name="Clock"
             skills="JavaScript"
             description="This is a web application that displays a real time clock"
           />
-        </div>
+        </div> */}
       </div>
     </section>
   );
