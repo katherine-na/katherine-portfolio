@@ -67,7 +67,7 @@ const Education = () => {
       </div>
       <div>
         <img className="certification-image" src={vtex} alt="" />
-        <p className="cert-text">VTEX IO</p>
+        <p className="cert-text">VTEX</p>
       </div>
     </div>
   );
