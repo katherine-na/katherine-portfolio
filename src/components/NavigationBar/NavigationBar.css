@@ -8,3 +8,21 @@
 .navbar-social {
     padding: 0;
 }
+
+.mobile-photo {
+    display: none;
+}
+
+
+/* Media Query para teléfono */
+@media only screen and (max-width: 599px) {
+    .navbar {
+        display: none;
+    }
+    .mobile-photo {
+        display: block;
+        width: 100px;
+        border-radius: 50%;
+        margin: 20px 0px 0px 40px;
+    }
+}

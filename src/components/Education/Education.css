@@ -93,4 +93,8 @@
   .certification-colbach {
     display: none;
   }
+
+  .cert-text {
+    display: none;
+  }
  }
