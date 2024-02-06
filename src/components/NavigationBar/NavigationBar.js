@@ -1,5 +1,6 @@
 import React from "react";
 import "./NavigationBar.css";
+import myPhoto from "../../assets/biography/kathy.jpeg"
 
 const NavigationBar = () => {
   const socialMediaImages = require.context("../../assets/socialMedia");
@@ -28,6 +29,9 @@ const NavigationBar = () => {
           </a>
         </ul>
       </li>
+      <div className="navbar-banner-mobile">
+        <img className="mobile-photo" src={myPhoto} alt="" />
+      </div>
     </section>
   );
 };

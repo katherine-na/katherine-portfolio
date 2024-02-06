@@ -10,7 +10,8 @@ import certudemy from "../../assets/certification/cert-udemy.jpeg";
 import certga from "../../assets/certification/GACERTF.jpg";
 import certgtm from "../../assets/certification/GTMCERT.jpg";
 import certcolbach from "../../assets/certification/certcolbach.png";
-import certciberse from "../../assets/certification/cert-ciberse.png"
+import certciberse from "../../assets/certification/cert-ciberse.png";
+import vtex from "../../assets/certification/vtex.png"
 
 const Education = () => {
   const [cert, setCert] = useState(2);
@@ -63,6 +64,10 @@ const Education = () => {
       <div>
         <img className="certification-image" src={certciberse} alt="" />
         <p className="cert-text">Ciberseguridad</p>
+      </div>
+      <div>
+        <img className="certification-image" src={vtex} alt="" />
+        <p className="cert-text">VTEX IO</p>
       </div>
     </div>
   );
